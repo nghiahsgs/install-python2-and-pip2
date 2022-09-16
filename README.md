@@ -30,7 +30,18 @@ which python2
 -> /usr/bin/python2
 ```
 
+
+create new venv
 ```
 virtualenv -p /usr/bin/python2 isoEnv
+```
+
+activate venv
+```
 source isoEnv/bin/activate
+```
+
+deactivate venv
+```
+deactivate
 ```
