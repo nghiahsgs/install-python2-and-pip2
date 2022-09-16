@@ -18,3 +18,19 @@ restart the terminal
 ```
 pip --version
 ```
+
+
+install virtualenv
+```
+pip2 install virtualenv
+```
+
+```
+which python2
+-> /usr/bin/python2
+```
+
+```
+virtualenv -p /usr/bin/python2 isoEnv
+source isoEnv/bin/activate
+```
